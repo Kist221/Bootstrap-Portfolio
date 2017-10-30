@@ -1,7 +1,32 @@
+header {
+	background: white;
+	border-bottom: teal solid 1px;
+}
+
+header h1 {
+	color: white;
+	text-align: center;
+}
 
 body {
 	background: lightgrey;
 	background: url(../images/concrete.png);
     background-repeat: repeat;
     background-size: 30%;
+}
+
+footer {
+	background: grey;
+}
+
+footer p {
+	color: lightgrey;
+}
+
+#pageContent {
+	margin-top: 70px;
+}
+
+#myName {
+	background: teal;
 }
