@@ -24,9 +24,21 @@ footer p {
 }
 
 #pageContent {
-	margin-top: 70px;
+	margin-top: 90px;
 }
 
 #myName {
 	background: teal;
+}
+
+@media (max-width: 768px) {
+
+	.fixed-top{
+		position: relative !important;
+	}
+
+	#pageContent {
+		margin-top: -20px;
+	}
+
 }
