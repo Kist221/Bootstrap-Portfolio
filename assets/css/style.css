@@ -23,6 +23,14 @@ footer p {
 	color: lightgrey;
 }
 
+.box {
+	max-height: 300px;
+}
+
+.boxLabel {
+	background: teal;
+}
+
 #pageContent {
 	margin-top: 90px;
 }
